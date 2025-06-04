@@ -8,6 +8,8 @@ historical data includes:
 
 We condense each team-season's players' stats into aggregates (e.g. avgs) and merge them with the existing season-team stats Then we create a diff_df that vectorizes each game We train on 80%, then fit a classifier model to the other 20% We output a percentage of which team wins of the 2 user inputs Evaluate by eyeball test applying domain knowledge of 2024-25 NBA season
 
+Will have UI for injuries on/off
+
 Scripts:
 - data fetch
 - preprocessing
